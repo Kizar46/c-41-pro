@@ -94,3 +94,4 @@ function writeStock(data){
  feedtime:hour()
 })
 }
+     
