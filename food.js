@@ -1,6 +1,6 @@
 class Food{
       constructor(){
-          this.milkImage=loadImage("images/milk.png")
+          this.milkImage=loadImage("images/Milk.png")
           this.feedtime
       }
      buttons(){
@@ -33,7 +33,25 @@ getfeedtime(){
         this.feedtime=data.val()
     })
 }
+updateState(state) {
+    database.ref('/').update({
+        gameState:state
+    }) 
+}
+
+bedRoom(){
+    background(bedroomImg) 
+ }
+garden(){
+    background(gardenImg)
+}
+washRoom(){
+    background(washroomImg)
+}
+    
 
 
 
 }
+
+//
