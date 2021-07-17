@@ -1,6 +1,6 @@
 class Food{
       constructor(){
-          this.milkImage=loadImage("images/Milk.png")
+          this.milkImage=loadImage("images/milk.png")
           this.feedtime
       }
      buttons(){
